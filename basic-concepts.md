@@ -80,3 +80,7 @@ applicable).
 [16] C++ is not just C with a few extensions; §1.3.3.
 
 In general: To write a good program takes intelligence, taste, and patience. You are not going to get it right the first time. Experiment!
+
+## C++ libraries and tool sets
+
+such as Boost [Boost] (portable foundation libraries), POCO (Web development), Qt (cross-platform application development), wxWidgets (a cross-platform GUI library), WebKit (a layout engine library for Web browsers), CGAL (computational geometry), QuickFix (Financial Information eXchange), OpenCV (real-time image processing), and Root [Root,1995] (High-Energy Physics). There are many thousands of C++ libraries, so keeping up with them all is impossible.
