@@ -22,14 +22,10 @@ bool accept()
         
         default:
             cout << "Sorry, I don't understand that.\n";
-
-        }
-        
-        ++tries;
+            ++tries;
+        }  
     }
-
     cout << "I'll take that for a no.\n";
-
     return false;
 }
 
