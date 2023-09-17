@@ -1,4 +1,5 @@
 #include <iostream>
+// using namespace std;
 
 //* Data structure
 struct Vector
@@ -49,7 +50,6 @@ void f( Vector v, Vector& rv, Vector* pv )
     int i2 = rv.sz; // access through reference
     int i3 = pv -> sz; // access through pointer
 }
-
 
 int main()
 {
