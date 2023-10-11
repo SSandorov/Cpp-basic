@@ -28,6 +28,8 @@ double read_and_sum( int s )
     Vector v;
     vector_init( v, s ); // allocate s elements for v
 
+    std::cout << "Please, pass " << s << " numbers to sum them." << "\n";
+
     for ( int i = 0; i != s; ++i ) {
         std::cin >> v.elem[i]; // read into elements
         // std::cout << i << "\n";

@@ -8,6 +8,7 @@ class Vector
         // A function with the same name as the class is called a constructor
         // A constructor is guaranteed to be used to initialize objects of its class
         Vector( int s ):
+        // the constructor initializes the Vector members using a member initializer list
             elem { 
                 new double[s]
             },
